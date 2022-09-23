@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button"
 function TodoCreateButton (){
     return (
         <div className="d-grid gap-2">
-            <Button variant="success" size="lg">+</Button>
+            <Button variant="primary" size="lg">+</Button>
         </div>
     )
 }

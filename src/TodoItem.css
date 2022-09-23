@@ -1,0 +1,15 @@
+.itemCompleted{
+    background-color: #d1e7dd !important;
+}
+.textItemCompleted{
+    text-decoration: line-through;
+}
+
+.badgeIcon:hover{
+    background-color: rgb(204, 63, 63) !important;
+    cursor: pointer;
+}
+
+.itemHover:hover{
+    cursor: pointer;
+}
