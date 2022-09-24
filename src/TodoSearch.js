@@ -2,16 +2,18 @@ import React from "react";
 import InputGroup from 'react-bootstrap/InputGroup';
 import Form from 'react-bootstrap/Form';
 
-const onSearchValueChange = (search) =>{
-    console.log(search.target.value)
-}
+function TodoSearch ({searchValue , setSearchValue}){
+    const onSearchValueChange = (search) =>{
+        console.log(search.target.value);
+        setSearchValue(search.target.value);
+    }
 
-function TodoSearch (){
     return (
         <InputGroup className="mb-3">
             <InputGroup.Text >TODOSearch</InputGroup.Text>
             <Form.Control 
             placeholder="Cebolla"
+            value={searchValue}
             onChange={onSearchValueChange}></Form.Control>
         </InputGroup>
     )

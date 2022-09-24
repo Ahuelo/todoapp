@@ -12,16 +12,19 @@ function TodoItem (props) {
     }
 
     return (
+        <div className="overf">
         <ListGroup.Item as='li' 
         action 
         className={`d-flex justify-content-between align-items-start itemHover ${props.completed && 'itemCompleted'}`}
         onClick={onComplete}>
             <p className={`${props.completed && 'textItemCompleted'}`}>{props.text}</p>
-            <Badge pill 
-            className={`badgeIcon`}
+            
+        </ListGroup.Item>
+        <Badge pill 
+            className={`badgeIcon `}
             onClick={onDelete}
             >X</Badge>
-        </ListGroup.Item>
+        </div>
     )
 }
 
