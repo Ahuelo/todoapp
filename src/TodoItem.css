@@ -4,17 +4,37 @@
 .textItemCompleted{
     text-decoration: line-through;
 }
+/* .FaCheckinverse:hover{
+    color: aliceblue;
+} */
 
-.badgeIcon:hover{
+.badgeIconX:hover{
     background-color: rgb(204, 63, 63) !important;
     cursor: pointer;
 }
-.badgeIcon{
+.badgeIconX{
     position: absolute;
     top: 33%;
     right: 2%;
     vertical-align: sub;
     z-index: 999;
+}
+.badgeIconV:hover .FaCheckInverse{
+    background-color: rgb(17, 182, 44) !important;
+    cursor: pointer;
+    color: aliceblue;
+    
+}
+.badgeIconV:hover{
+    background-color: rgb(17, 182, 44) !important;
+    cursor: pointer;
+}
+.badgeIconV{
+    position: absolute;
+    top: 33%;
+    vertical-align: sub;
+    z-index: 999;
+    border: red;
 }
 .overf{
 
@@ -23,4 +43,8 @@
 
 .itemHover:hover{
     cursor: pointer;
+}
+
+.textItem{
+    margin-left: 30px !important;
 }
