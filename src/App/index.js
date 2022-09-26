@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react';
-import {TodoCounter} from './TodoCounter';
-import { TodoSearch } from './TodoSearch';
-import { TodoList } from './TodoList';
-import { TodoItem } from './TodoItem';
-import { TodoCreateButton } from './TodoCreateButton';
+import {TodoCounter} from '../TodoCounter';
+import { TodoSearch } from '../TodoSearch';
+import { TodoList } from '../TodoList';
+import { TodoItem } from '../TodoItem';
+import { TodoCreateButton } from '../TodoCreateButton';
 
 const defaultTodos = [
   {text:'Cortar Cebolla', completed: true},
